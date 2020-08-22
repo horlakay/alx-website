@@ -1,4 +1,4 @@
-let logoDiv = document.body.querySelector('.logo')
+let logoDiv = document.body.querySelector('.clickable-image')
 let imagLink = [['html.svg','https://www.w3schools.com/html/default.asp'],['js.svg','https://www.w3schools.com/js/default.asp'],['css.svg','https://www.w3schools.com/css/default.asp']]
 
 let counter = 0

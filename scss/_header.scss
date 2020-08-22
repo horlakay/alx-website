@@ -35,7 +35,21 @@ header{
         background: $contrast-color;
     }
 
-   
+    .right{
+        position:absolute;
+        left:10px;
+        margin:10px;
+        top: calc(50vh - 25px);
+        width: 25px;
+        &:before{
+            content: none;
+        }
+
+    }
+    .tweet{
+        top: calc(50vh + 15px);
+       
+    }
     .logo{
         width: 7.5rem;
         height: 7.5rem;

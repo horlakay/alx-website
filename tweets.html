@@ -22,7 +22,10 @@
     <title>Tweets</title>
 </head>
 <body>
-         
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="gyMvD543"></script>
+
+
     <!-- header -->
     <header id="header">
         
@@ -38,6 +41,8 @@
                 </p>
             </div>
         </div>
+        <div class="fb-share-button right" data-href="http://127.0.0.1:5500/index.html" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F127.0.0.1%3A5500%2Findex.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        <div class="right tweet"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
         <nav class="use-middle">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -69,7 +74,26 @@
             </section>
         </article>
            
-       <aside><p>placeholder to add comment thread later</p></aside>
+       <aside>
+           <div id="disqus_thread"></div>
+            <script>
+            
+        
+            
+                var disqus_config = function () {
+                this.page.url = "http://127.0.0.1:5500/tweets.html"; 
+                this.page.identifier = "http://127.0.0.1:5500/tweets.html"; 
+                };
+                
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://hileaalk.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </aside>
     </main>
     <footer >
         <div class="footer-distributed">
@@ -126,7 +150,7 @@
             </div>
             
         </div>
-        <p>Made by Hileamlak Yitayew for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a> with love</p>
+        <p>Made by Hileamlak Yitayew for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a></p>
     
        
         

@@ -30,6 +30,22 @@ header > *:before {
   background: #ffffff;
 }
 
+header .right {
+  position: absolute;
+  left: 10px;
+  margin: 10px;
+  top: calc(50vh - 25px);
+  width: 25px;
+}
+
+header .right:before {
+  content: none;
+}
+
+header .tweet {
+  top: calc(50vh + 15px);
+}
+
 header .logo {
   width: 7.5rem;
   height: 7.5rem;
@@ -194,7 +210,6 @@ main article h1 {
 main article #intro {
   transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
   padding: 4.5rem 2.5rem 1.5rem 2.5rem;
-  position: relative;
   width: 100%;
   background-color: #3c7f7f;
   border-radius: 4px;
@@ -205,13 +220,6 @@ main article #intro {
 main article #intro h1, main article #intro h2, main article #intro h3 {
   font-weight: bold;
   text-decoration: underline;
-}
-
-main article #intro .image.main img {
-  width: 100%;
-  margin: 10px;
-  border-radius: 4px;
-  display: block;
 }
 
 main article #intro #visual-map {
@@ -226,6 +234,14 @@ main article #intro #visual-map p, main article #intro #visual-map h3 {
 main article #intro #visual-map img {
   width: 50%;
   align-self: center;
+}
+
+main article .clickable-image {
+  width: 7.5rem;
+  height: 7.5rem;
+  line-height: 5.5rem;
+  align-self: center;
+  margin-top: 10px;
 }
 
 main aside {
