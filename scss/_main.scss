@@ -1,0 +1,94 @@
+main {
+    
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex: auto;
+
+    @media (max-width:750px) {
+    
+        flex-direction: column;
+        justify-content: center;
+
+           
+    }
+
+    p{
+       
+        letter-spacing: 0.2rem;
+        line-height: 2;
+        font-family: monospace;
+    }
+    article{
+        @media (max-width:750px) {
+    
+            width: 90%;
+           
+               
+        }
+        width: 60%;
+        padding: 0;
+        h1{
+            color: white;
+            text-decoration: underline;
+        }
+        #intro {
+   
+            transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+            padding: 4.5rem 2.5rem 1.5rem 2.5rem;
+            position: relative;
+            width: 100%;
+            background-color: $primary-color;
+            border-radius: 4px;
+            opacity: 1;
+            box-shadow: 2px -4px 7px 5px #1d324259;
+            h1,h2,h3{
+                
+                font-weight: bold;
+                text-decoration: underline;
+              }
+            .image.main img {
+                width: 100%;
+                margin:10px;
+                border-radius: 4px;
+                display: block;
+            }
+
+            #visual-map{
+                display: flex;
+                flex-direction: column;
+                p,h3{
+                   margin-left:25px;
+                }
+                img{
+                    width: 50%;
+                    align-self: center;
+                }
+            }
+        }
+    }
+    aside{
+        @media (max-width:750px) {
+    
+            width: 90%;
+            align-self: center;
+            margin: 30px;
+        }
+        width: 30%;
+        transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+        padding: 1.5rem;
+        max-width: 100%;
+        background-color: $primary-color;
+        align-self: flex-start;
+        box-shadow: 2px -4px 7px 5px #1d324259;
+    }
+    
+    
+
+    
+
+
+}
