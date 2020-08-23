@@ -7,9 +7,29 @@
 !DONE-->additional feature working contact
 !DONE-->add seo optimization
 requirment checking
+    !DONE-->1. at least 4 paragraphs;
+    !DONE-->2. headings (titles) of level 1, 2 and 3, which are represented by <h1>, <h2> and <h3> tags;
+    !DONE-->3. a clickable image of your choice (you can use the https://alx-apply.hbtn.io/brand_alx/alx-logo.png image, or another one you find on the internet by using its full URL); and it may link to any URL online that you want.
+    !DONE-->4.create another one, called tweets.html
+    !DONE-->5.embed at least one tweet;
+    !DONE-->6.contain a link to your index.html webpage, for users who may go back to your homepage; and your index.html should also contain a link to tweets.html, for users landing on your homepage, who want to see your tweets!
+    !DONE-->6.least two other webpages and their content
+    !DONE-->7.The <body> tag of all of your webpages (including index.html and tweets.html) must contain exactly three direct sub-tags in that order: <header>, <main> and <footer>.
+    !DONE-->8.The <header> tag must contain an unordered list (the <ul> and <li> tags) of links (the <a> tag) to each of your webpages. As you may have understood, this will serve as a navigation for your website.
+    !DONE-->9.The <footer> tag must contain one paragraph with the sentence Made by Hileamlak Yitayew for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a>.
+    !DONE-->10.The <main> tag must contain two direct sub-tags in that order: <article> and <aside>.
+    !DONE-->11.<article> contains the content of your webpage: texts, links, images, tweets, … This is the part of index.html and tweets.html that you have already written, and you must now write it as you like for the other pages.
+    ?!-->12.<aside> contains a single paragraph, just reading for now "placeholder to add comment thread later".
+    !DONE-->13.First, create an empty styles.css file in your /var/www/html directory. Then, in each of your HTML files, add those two lines within the <head> tag (do not confuse with the <header> tag!):
+!DONE-->14.Both container tags, <body> and <main> must be told that they are containers to flexible boxes: you need to apply the display: flex property to both of them.
+!DONE-->15.However, <body> contains a column of three boxes (<header>, <main> and <footer>), therefore you must apply the flex-direction: column property to <body>; whereas <main> contains a row of 2 boxes (<article> and <aside>), so you must apply the flex-direction: row property to <main>.
+!DONE-->16.Ensure the <main> tag keeps an automatic height and width, by applying the flex: auto property to it.
+?NOTDONE-->17.To wrap up the layout, you want to be sure that your content (article) takes ⅔ of the width of the page, and your aside takes ⅓; you can assign to them the number of boxes they should fill in. This is done by applying the property flex: 2 to <article> (using up 2 boxes), and flex: 1 to <aside> (using up 1 box).
+!DONE-->18.Finally, you want to be sure that the user can scroll within your <article> and your <aside>. You can do this by applying the overflow-y: auto CSS property to both of them.
+!DONEBUTOVERRIDEN-->19just add the attribute class="works_on_smartphone" on the <body> tag in your index.html file, and the layout you just created will degrade nicely as you resize the window!
 cleaning up code
-image compressing
-minifying js and css
+!DONE-->image compressing
+!?-->minifying js and css
 cross browser compatability check
 site validdation again
 coppying to server
