@@ -6,7 +6,7 @@
     !DONE-->-css Validation
 !DONE-->additional feature working contact
 !DONE-->add seo optimization
-requirment checking
+!PARTIALLYDONE-->requirment checking
     !DONE-->1. at least 4 paragraphs;
     !DONE-->2. headings (titles) of level 1, 2 and 3, which are represented by <h1>, <h2> and <h3> tags;
     !DONE-->3. a clickable image of your choice (you can use the https://alx-apply.hbtn.io/brand_alx/alx-logo.png image, or another one you find on the internet by using its full URL); and it may link to any URL online that you want.
@@ -21,16 +21,29 @@ requirment checking
     !DONE-->11.<article> contains the content of your webpage: texts, links, images, tweets, … This is the part of index.html and tweets.html that you have already written, and you must now write it as you like for the other pages.
     ?!-->12.<aside> contains a single paragraph, just reading for now "placeholder to add comment thread later".
     !DONE-->13.First, create an empty styles.css file in your /var/www/html directory. Then, in each of your HTML files, add those two lines within the <head> tag (do not confuse with the <header> tag!):
-!DONE-->14.Both container tags, <body> and <main> must be told that they are containers to flexible boxes: you need to apply the display: flex property to both of them.
-!DONE-->15.However, <body> contains a column of three boxes (<header>, <main> and <footer>), therefore you must apply the flex-direction: column property to <body>; whereas <main> contains a row of 2 boxes (<article> and <aside>), so you must apply the flex-direction: row property to <main>.
-!DONE-->16.Ensure the <main> tag keeps an automatic height and width, by applying the flex: auto property to it.
-?NOTDONE-->17.To wrap up the layout, you want to be sure that your content (article) takes ⅔ of the width of the page, and your aside takes ⅓; you can assign to them the number of boxes they should fill in. This is done by applying the property flex: 2 to <article> (using up 2 boxes), and flex: 1 to <aside> (using up 1 box).
-!DONE-->18.Finally, you want to be sure that the user can scroll within your <article> and your <aside>. You can do this by applying the overflow-y: auto CSS property to both of them.
-!DONEBUTOVERRIDEN-->19just add the attribute class="works_on_smartphone" on the <body> tag in your index.html file, and the layout you just created will degrade nicely as you resize the window!
-cleaning up code
+    !DONE-->14.Both container tags, <body> and <main> must be told that they are containers to flexible boxes: you need to apply the display: flex property to both of them.
+    !DONE-->15.However, <body> contains a column of three boxes (<header>, <main> and <footer>), therefore you must apply the flex-direction: column property to <body>; whereas <main> contains a row of 2 boxes (<article> and <aside>), so you must apply the flex-direction: row property to <main>.
+    !DONE-->16.Ensure the <main> tag keeps an automatic height and width, by applying the flex: auto property to it.
+    ?NOTDONE-->17.To wrap up the layout, you want to be sure that your content (article) takes ⅔ of the width of the page, and your aside takes ⅓; you can assign to them the number of boxes they should fill in. This is done by applying the property flex: 2 to <article> (using up 2 boxes), and flex: 1 to <aside> (using up 1 box).
+    !DONE-->18.Finally, you want to be sure that the user can scroll within your <article> and your <aside>. You can do this by applying the overflow-y: auto CSS property to both of them.
+    !DONEBUTOVERRIDEN-->19.just add the attribute class="works_on_smartphone" on the <body> tag in your index.html file, and the layout you just created will degrade nicely as you resize the window!
+    !DONE-->20.what is called the "viewport" of the browser when rendering the page. Hint: this gets done by adding a certain tag to your HTML code.
+    !VIOLATED-->21.You may add any non-positioning-related CSS rules to styles.css (like colors, backgrounds, borders, …)
+    !NOTVIOLATED-->22.You may do whatever you want with the HTML content and the CSS that applies inside the <article> tag.
+    !DONE-->23.You may add a logo to the top-left of your page. To keep it simple, rather than use an image, feel free to use a unicode character, from this table for instance. One way to make it work: add a first item in the list in your <header>, before all other list items, and just put the HTML-code for the character in it (it starts with "&" and ends with ";"). To make it look like a logo, if you want the character to be bigger, you can add the class="logo" attribute on the <li> tag, we added the CSS rule for you.
+    !PATIALLYRESPECTED-->24.Do not change the layout strategy, done with CSS Flexbox, as described above. Feel free to experiment with positioning within the <article> tag if you wish; but please refrain to do so anywhere else.
+    !RESPECTED-->25.Do not change anything about the <aside> tag. It will be useful to you later in this project.
+    !DONE-->26.Then, so that the webpages know where to find it, add this in the <head> tag of **all your webpages**: <script src="behavior.js"></script>.
+    !DONE-->27.To make the image bigger or smaller, you have to change its class. In your JavaScript console, run this code:
+    !DONE--28.Find out how to create a Disqus account and add Disqus comments to your site
+    !DONE-->29.First, add a <div> tag inside your <header> tag on **each** of your webpages. You should add it first, before the <ul> tag that contains your navigation.
+    !DONE-->30.Add a **class="right"** attribute to your <div> tag; we wrote the CSS rule for you so that it will be at the top right of your website
+    !DONE--31.Next, simply add the social sharing buttons inside that <div> tag.
+!ITHINKITWASCLEANWASTIRES-->cleaning up code
 !DONE-->image compressing
 !?-->minifying js and css
-cross browser compatability check
-site validdation again
+!DONE-->cross browser compatability with autoprefixer
 coppying to server
+final checking and editing some values realated disques andd kewes
+site validdation again
 submitting
