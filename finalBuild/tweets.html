@@ -25,7 +25,7 @@
     <header id="header">
      
        
-        <li class="logo"><i style="color: white; font-size: 4rem;" class="fa fa-twitter"></i></li>
+        <div class="logo"><i style="color: white; font-size: 4rem;" class="fa fa-twitter"></i></div>
         <div class="content">
             <div class="inner">
                 <h1>Hileamlak (EHM)</h1>
@@ -35,10 +35,10 @@
             </div>
         </div>
         <div class="right">
-            <div class="fb-share-button" data-href="http://127.0.0.1:5500/index.html" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F127.0.0.1%3A5500%2Findex.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-            <div class="twitter"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js"></script></div>
-            <div class="linkedin"><script type="IN/Share" data-url="http://127.0.0.1:5500/index.html"></script></div>    
-            <div class="whatsapp"><a href="whatsapp://send?text=http://127.0.0.1:5500/index.html" data-action="share/whatsapp/share" target="_blank"> <i class="fa fa-phone"></i>Message</a></div>
+            <div class="fb-share-button" data-href="http://3.237.1.191/index.html" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F127.0.0.1%3A5500%2Findex.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+            <div class="twitter"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a></div>
+            <div class="linkedin"><script type="IN/Share" data-url="http://3.237.1.191/index.html"></script></div>    
+            <div class="whatsapp"><a href="whatsapp://send?text=http://3.237.1.191/index.html" data-action="share/whatsapp/share" target="_blank"> <i class="fa fa-phone"></i>Message</a></div>
         </div>        
         <ul class="use-middle">
             <li><a href="index.html">Home</a></li>
@@ -81,28 +81,25 @@
            </section>
         </article>
            
-       <aside>
-           
-           <div id="disqus_thread"></div>
-
+        <aside>
+            <div id="disqus_thread"></div>
             <script>
-            
-        
-            
+
+
                 var disqus_config = function () {
-                this.page.url = "http://127.0.0.1:5500/tweets.html"; 
-                this.page.identifier = "http://127.0.0.1:5500/tweets.html"; 
+                this.page.url = 'http://3.237.1.191/tweets.html';  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = 'hilea-alx-tweets'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                 };
                 
                 (function() { // DON'T EDIT BELOW THIS LINE
                 var d = document, s = d.createElement('script');
-                s.src = 'https://hileaalk.disqus.com/embed.js';
+                s.src = 'https://hilea-alx.disqus.com/embed.js';
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
-            })();
+                })();
             </script>
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        </aside>
+       </aside>
     </main>
     <footer >
         <div class="footer-distributed">
@@ -164,6 +161,6 @@
        
         
     </footer>   
-    <script async src="https://platform.twitter.com/widgets.js"></script> 
+    <script id="dsq-count-scr" src="//hilea-alx.disqus.com/count.js" async></script> 
 </body>
 </html>
