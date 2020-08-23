@@ -33,9 +33,7 @@ header > *:before {
 header .right {
   position: absolute;
   left: 10px;
-  margin: 10px;
-  top: calc(50vh - 25px);
-  width: 25px;
+  top: calc(50vh - 30px);
 }
 
 header .right:before {
@@ -43,7 +41,35 @@ header .right:before {
 }
 
 header .tweet {
-  top: calc(50vh + 15px);
+  top: calc(50vh);
+}
+
+header .linkdin {
+  top: calc(50vh + 18px);
+}
+
+header .whatsapp {
+  top: calc(50vh + 50px);
+  padding: 0 5px;
+  border-radius: 2px;
+  background-color: #15aabf;
+}
+
+header .whatsapp i {
+  color: white;
+  background-color: #15aabf;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+
+header .whatsapp a {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+header .whatsapp:hover {
+  background-color: #139aad;
 }
 
 header .logo {
@@ -194,6 +220,11 @@ main p {
 main article {
   width: 60%;
   padding: 0;
+  transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+  background-color: #3c7f7f;
+  border-radius: 4px;
+  opacity: 1;
+  box-shadow: 2px -4px 7px 5px #1d324259;
 }
 
 @media (max-width: 750px) {
@@ -202,22 +233,12 @@ main article {
   }
 }
 
-main article h1 {
-  color: white;
-  text-decoration: underline;
-}
-
 main article #intro {
-  transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-  padding: 4.5rem 2.5rem 1.5rem 2.5rem;
-  width: 100%;
-  background-color: #3c7f7f;
-  border-radius: 4px;
-  opacity: 1;
-  box-shadow: 2px -4px 7px 5px #1d324259;
+  padding: 0 2.5rem 1.5rem 2.5rem;
 }
 
 main article #intro h1, main article #intro h2, main article #intro h3 {
+  color: white;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -260,6 +281,11 @@ main aside {
     align-self: center;
     margin: 30px;
   }
+}
+
+article > *:first-child {
+  margin-left: 30px;
+  margin-bottom: 0;
 }
 
 footer {

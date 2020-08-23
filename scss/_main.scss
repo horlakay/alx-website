@@ -23,6 +23,7 @@ main {
         font-family: monospace;
     }
     article{
+        
         @media (max-width:750px) {
     
             width: 90%;
@@ -31,21 +32,18 @@ main {
         }
         width: 60%;
         padding: 0;
-        h1{
-            color: white;
-            text-decoration: underline;
-        }
+        transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+        background-color: $primary-color;
+        border-radius: 4px;
+        opacity: 1;
+        box-shadow: 2px -4px 7px 5px #1d324259;
+        
+        
         #intro {
-   
-            transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-            padding: 4.5rem 2.5rem 1.5rem 2.5rem;
-            width: 100%;
-            background-color: $primary-color;
-            border-radius: 4px;
-            opacity: 1;
-            box-shadow: 2px -4px 7px 5px #1d324259;
+            
+            padding: 0 2.5rem 1.5rem 2.5rem;            
             h1,h2,h3{
-                
+                color: white;
                 font-weight: bold;
                 text-decoration: underline;
               }
@@ -92,4 +90,8 @@ main {
     
 
 
+}
+article > *:first-child {
+    margin-left: 30px;
+    margin-bottom: 0;
 }
