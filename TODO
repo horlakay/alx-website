@@ -1,10 +1,16 @@
 !DONE-->complete the assignment 
 !DONe-->responsive design checking
-additional features more social buttons
-site validdation with w3c 
+!DONE-->additional features more social buttons
+!DONE-->site validdation with w3c 
+    !DONE-->-HTML validation
+    !DONE-->-css Validation
+!DONE-->additional feature working contact
 and seo optimization
 requirment checking
 cleaning up code
 image compressing
+minifying js and css
 cross browser compatability check
+site validdation again
 coppying to server
+submitting

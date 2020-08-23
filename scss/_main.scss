@@ -68,6 +68,15 @@ main {
             align-self: center;
             margin-top:10px;
         }
+        iframe{
+            overflow: scroll;
+            width: 100%;
+            min-height: 600px;
+            background: #00000091;
+            border: 3px solid white;
+            border-radius: 19px;
+            resize: both;
+        }
     }
     aside{
         @media (max-width:750px) {
@@ -84,14 +93,23 @@ main {
         align-self: flex-start;
         box-shadow: 2px -4px 7px 5px #1d324259;
     }
-    
-    
-
-    
-
-
 }
 article > *:first-child {
     margin-left: 30px;
     margin-bottom: 0;
+}
+.flex-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.center{
+    align-self: center;
+}
+.no-decoration{
+    text-decoration: none !important;
+}
+.weight-normal{
+   font-weight:normal !important;           
 }
