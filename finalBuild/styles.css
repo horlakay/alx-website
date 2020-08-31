@@ -609,7 +609,7 @@ footer .footer-distributed .footer-center p {
   overflow-wrap: break-word;
 }
 
-footer .footer-distributed .footer-center i {
+footer .footer-distributed .footer-center span.fa {
   background-color: #33383b;
   color: #ffffff;
   text-align: center;
@@ -618,10 +618,8 @@ footer .footer-distributed .footer-center i {
   border-radius: 50%;
   line-height: 42px;
   margin: 10px 15px;
-}
-
-footer .footer-distributed .footer-center i.fa-envelope {
   font-size: 17px;
+  padding:6px;
   line-height: 38px;
 }
 

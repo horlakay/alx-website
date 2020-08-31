@@ -10,7 +10,7 @@
 
     <link href="https://alx-apply.hbtn.io/level2/school.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="customiconfont.css">
     <script src="behaviour.js"></script>
 
     <title>Works</title>
@@ -18,13 +18,13 @@
 <body class="works_on_smartphone">
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="gyMvD543"></script>
-    <script src="https://platform.linkedin.com/in.js"></script>
+    <script async defer src="https://platform.linkedin.com/in.js"></script>
        
     <!-- header -->
     <header id="header">
         
        
-        <div class="logo"><i style="color: white; font-size: 4rem;" class="fa fa-suitcase"></i></div>
+        <div class="logo"><i style="color: white; font-size: 4rem;" class="icon-uniF0B1"></i></div>
         <div class="content">
             <div class="inner">
                 <h1>Hileamlak (EHM)</h1>
@@ -93,6 +93,8 @@
                 var d = document, s = d.createElement('script');
                 s.src = 'https://hilea-alx.disqus.com/embed.js';
                 s.setAttribute('data-timestamp', +new Date());
+                s.setAttribute('async','');
+                s.setAttribute('defer','');
                 (d.head || d.body).appendChild(s);
                 })();
             </script>
@@ -120,15 +122,15 @@
     
                 <div>
                     
-                        <i class="fa fa-map-marker"></i>
+                        <span class="fa icon-location"></span>
                         <p><span>3080</span> Hailieselase Road<br>Bahir Dar, Ethiopia</p>
                         <br>
                                
-                        <i class="fa fa-phone"></i>
+                        <span class="fa icon-uniF095"></span>
                         <p>+251918024745</p>
                         <br>
                     
-                        <i class="fa fa-envelope"></i>
+                        <span class="fa icon-uniF0E0"></span>
                         <a href="mailto:hileamlak@gmail.com" target="_blank">hileamlak@gmail.com</a>
                         <br>
                   
@@ -146,10 +148,10 @@
                 </p>
                 <div class="footer-icons">
     
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                    <a href="#"><i class="fa fa-github"></i></a>
+                    <a href="#"><i class="icon-uniF09A"></i></a>
+                    <a href="#"><i class="icon-uniF099"></i></a>
+                    <a href="#"><i class="icon-uniF0E1"></i></a>
+                    <a href="#"><i class="icon-uniF09B"></i></a>
     
                 </div>
     
@@ -161,6 +163,6 @@
        
         
     </footer>   
-    <script id="dsq-count-scr" src="//hilea-alx.disqus.com/count.js" async></script> 
+    <script id="dsq-count-scr" src="//hilea-alx.disqus.com/count.js" async defer></script> 
 </body>
 </html>
